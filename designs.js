@@ -1,4 +1,5 @@
 // Select color input
+
 let colorPicker = document.getElementById("colorPicker");  
 // Select size input
 let inputHeight = document.getElementById("input_height");  
@@ -6,7 +7,9 @@ let inputWidth = document.getElementById("input_width");
 let canvas = document.getElementById("pixel_canvas");
 let sizePicker = document.getElementById("sizePicker");
 
+
 // When size is submitted by the user, call makeGrid()
+
 sizePicker.onsubmit = function makeGrid(event) {
 	// console.log('input_width', inputWidth.value);
 	// console.log('color', colorPicker.value);
